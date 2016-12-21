@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".tab">
+
+    <item android:id="@+id/disconnect1"
+        android:title=""
+        android:icon="@drawable/ic_action_name3"
+        app:showAsAction="always|collapseActionView|"
+        app:actionViewClass="android.support.v7.widget.buton"/>
+
+    <item android:id="@+id/type"
+        android:title=""
+        android:icon="@drawable/ic_action_name2"
+        app:showAsAction="always|collapseActionView|"
+        app:actionViewClass="android.support.v7.widget.button"/>
+
+    <item android:id="@+id/service"
+        android:title=""
+        android:icon="@drawable/ic_action_name4"
+        app:showAsAction="always|collapseActionView|"
+        app:actionViewClass="android.support.v7.widget.button"/>
+</menu>
